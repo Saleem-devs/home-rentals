@@ -41,6 +41,9 @@ ul li {
   .container {
     width: 90%;
   }
+  .nav-logo {
+    width: 110px;
+  }
   .nav-link {
     display: none;
   }
@@ -84,6 +87,8 @@ ul li {
 
   .hero .hero-left h1 {
     text-align: center;
+    font-size: 40px !important;
+    line-height: 50px !important;
   }
   .hero {
     flex-direction: column;

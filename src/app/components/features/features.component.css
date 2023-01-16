@@ -73,6 +73,7 @@ p {
     align-items: center;
   }
   p {
+    font-size: 20px;
     text-align: center;
     width: 80%;
   }
