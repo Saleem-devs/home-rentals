@@ -89,7 +89,7 @@ section {
   .gallery-bottom {
     flex-direction: column;
   }
-  .gallery img {
-    object-fit: cover;
+  .gallery-top {
+    align-items: center;
   }
 }
