@@ -1,0 +1,18 @@
+<section>
+    <div class="container">
+        <h2><span>minimum living cost</span> takes care of everything</h2>
+        <div class="features">
+            <div class="feature-poster">
+                <img src="../../../assets/images/minimum.png" alt="">
+            </div>
+            <div class="feature-details">
+                <div class="box" *ngFor="let box of features">
+                    <div class="box-img">
+                        <img src={{box.img}} alt="">
+                    </div>
+                    <p>{{box.name}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

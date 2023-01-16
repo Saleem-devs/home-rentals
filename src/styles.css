@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --normal: "DM Sans", sans-serif;
+  --bold: "Inter", sans-serif;
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}

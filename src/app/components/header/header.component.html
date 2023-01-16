@@ -1,0 +1,49 @@
+<header>
+   <div class="container">
+      <!-- navbar start -->
+      <nav>
+         <div class="nav-logo">
+            <a href="#">
+               <img src="../../../assets/images/logo.svg" alt="logo">
+            </a>
+         </div>
+         <div class="nav-link">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Landlord</a></li>
+               <li><a href="#">Tenants</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+         </div>
+         <div class="menu-bar" (click)="showMenu()">
+            <i class="fa-solid fa-bars"></i>
+         </div>
+      </nav>
+
+
+
+      <!-- navbar end  -->
+
+      <!-- hero start -->
+      <div class="hero">
+         <div class="hero-left">
+            <h1>The most affortable place to stay in the san franciso bay area</h1>
+         </div>
+         <div class="hero-right">
+            <img src="../../../assets/images/hero.png" alt="">
+         </div>
+      </div>
+      <!-- hero end  -->
+   </div>
+
+   <!-- menu  -->
+
+   <div class="menu">
+      <div class="close" (click)="closeMenu()">
+         <i class="fa-solid fa-xmark"></i>
+      </div>
+      <ul>
+         <li *ngFor="let item of menuItems"><a href="#">{{item}}</a></li>
+      </ul>
+   </div>
+</header>
