@@ -1,0 +1,65 @@
+section {
+  background: rgba(244, 81, 30, 0.07);
+  margin-bottom: 70px;
+}
+.small-container {
+  padding: 0 0 0 10%;
+}
+p,
+small {
+  font-family: var(--normal);
+  line-height: 24px;
+  z-index: 1000;
+}
+
+h4 {
+  font-family: var(--bold);
+  margin-bottom: 5px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+.testimony {
+  padding-top: 80px;
+}
+.testimony-text {
+  position: relative;
+  padding: 25px;
+}
+.quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 50px;
+  opacity: 30%;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.testimony,
+.iframe {
+  width: 50%;
+}
+@media screen and (max-width: 900px) {
+  .content {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .small-container {
+    padding: 0;
+    width: 90%;
+    margin: auto;
+  }
+  .testimony {
+    padding-top: 0;
+  }
+  .testimony,
+  .iframe {
+    width: 100%;
+  }
+}

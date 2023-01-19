@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { PropertiesComponent } from './components/properties/properties.component';
 import { SearchRoomComponent } from './components/search-room/search-room.component';
+import { NewPropertyComponent } from './components/new-property/new-property.component';
+import { TestimoniesComponent } from './components/testimonies/testimonies.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SearchRoomComponent } from './components/search-room/search-room.compon
     HeaderComponent,
     FeaturesComponent,
     PropertiesComponent,
-    SearchRoomComponent
+    SearchRoomComponent,
+    NewPropertyComponent,
+    TestimoniesComponent
   ],
   imports: [
     BrowserModule,

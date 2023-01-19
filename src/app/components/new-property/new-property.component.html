@@ -1,0 +1,73 @@
+<section>
+    <div class="container">
+        <div class="property">
+            <h4>Your property with us and be Confident that Your Room will be Filled Out!</h4>
+
+            <div class="form-container">
+                <h3>Add A New Property</h3>
+                <form>
+                    <div class="input">
+                        <label>Name</label>
+                        <input type="text" placeholder="Enter Name" required>
+                    </div>
+
+                    <div class="input">
+                        <label>Address</label>
+                        <input type="text" placeholder="Enter Address" required>
+                    </div>
+
+                    <div class="input">
+                        <label>Unit Number</label>
+                        <input type="number" placeholder="Enter Unit" required>
+                    </div>
+                    <div class="input">
+                        <label>City</label>
+                        <select name="" id="">
+                            <option value="">San Franciso</option>
+                        </select>
+                    </div>
+
+                    <div class="input">
+                        <label>State</label>
+                        <select name="" id="">
+                            <option value="">California</option>
+                        </select>
+                    </div>
+
+                    <div class="input">
+                        <label>Room Type</label>
+                        <select name="" id="">
+                            <option value="">Private Room</option>
+                            <option value="">All Type</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label>Price</label>
+                        <input type="number" placeholder="Enter Price" required>
+                    </div>
+
+                </form>
+
+                <div class="input">
+                    <label>Description </label>
+                    <textarea name="" id="" cols="50" rows="10" placeholder="Enter Description"></textarea>
+                </div>
+
+                <div class="input">
+
+                    <label>Upload Photos</label>
+                    <div class="upload-img">
+                        <p>Drag your images here, or <span id="custom-btn" (click)="show()">browse</span> </p>
+                        <small>Supported: JPG, JPEG, PNG</small>
+                        <input id="custom-file-input" type="file" accept="image/*">
+                    </div>
+
+                </div>
+                <div class="btn">
+                    <button>Add New Property</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

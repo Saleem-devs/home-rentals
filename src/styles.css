@@ -29,7 +29,13 @@ a {
   color: #fff;
 }
 button,
-input {
+input,
+textarea,
+select {
   border: none;
   outline: none;
+}
+
+::placeholder {
+  font-family: "DM Sans", sans-serif;
 }
