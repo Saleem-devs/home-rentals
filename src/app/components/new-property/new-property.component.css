@@ -96,13 +96,10 @@ input[type="file"]::file-selector-button {
 }
 
 @media screen and (max-width: 900px) {
-  button {
-    width: 100%;
-  }
-  input {
-    width: 100%;
-  }
-  .input {
+  button,
+  input,
+  .input,
+  select {
     width: 100%;
   }
 }

@@ -9,6 +9,7 @@ import { PropertiesComponent } from './components/properties/properties.componen
 import { SearchRoomComponent } from './components/search-room/search-room.component';
 import { NewPropertyComponent } from './components/new-property/new-property.component';
 import { TestimoniesComponent } from './components/testimonies/testimonies.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TestimoniesComponent } from './components/testimonies/testimonies.compo
     PropertiesComponent,
     SearchRoomComponent,
     NewPropertyComponent,
-    TestimoniesComponent
+    TestimoniesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
