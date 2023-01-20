@@ -102,4 +102,7 @@ input[type="file"]::file-selector-button {
   select {
     width: 100%;
   }
+  .form-container {
+    padding: 25px;
+  }
 }
